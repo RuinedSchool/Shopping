@@ -1,51 +1,69 @@
+/*
+
+Title : Shopping Market Structure
+Date : 12/13/2023
+Developers : Rahele, Mobin, Nima, Fateme, Milad
+Github : https://github.com/RuinedSchool/Shopping
+Discreption : our second homework of designing structure using JS
+email: navayearamm@gmail.com
+
+*/
+
+
+// start
+//Main Object
 const shop = {
+     // Section for laptop brands
     Product : [
          // section1 | this product for laptop | this section have many laptop model  for buy laptop
         {
 section: 'laptop',
+            //Mac Laptops
 MAC : {
-
+//Available Mac Laptop Models
 
 model :[{
+     //Model Number 1
     name:'IMac Pro' ,
     price : 1800,
     Ram : '4GB',
     Color:['black' , 'withe' , 'gray']
 },
 {
+    //Model Number 2
     name:'Mac Mini' ,
     price : 2200,
     Ram : '8GB',
     Color:['black' , 'withe' , 'green'] 
 },
 {
+    //Model Number 3
     name:'MacBook' ,
     price : 1500,
     Ram : '6GB',
     Color:['black' , 'withe' , 'brown'] 
 },
-
 ],
-
 },
+              //Asus Laptops
 Asus : {
-
-  
-
-
+ //Available Asus Laptop Models
 model :[{
+    //Model Number 1
     name:'ASUS FX516PM' ,
     price : 2000,
     Ram : '4GB',
     Color:['black' , 'withe' , 'gray']
 },
 {
+    //Model Number 2
     name:'ASUS Vivobook S 14 Flip' ,
     price : 1200,
     Ram : '8GB',
     Color:['black' , 'withe' , 'green'] 
 },
 {
+    //Model Number 3
     name:'ASUS F515' ,
     price : 1500,
     Ram : '6GB',
@@ -55,218 +73,223 @@ model :[{
 ],
 
 },
+             //Lenovo Laptops
 Lenovo : {
-
-
+//Available Lenovo Laptop Models
 
 model :[
     {
+          //Model Number 1
     name:'Lenovo ThinkBook16gen6' ,
     price : 2000,
     Ram : '4GB',
     Color:['black' , 'withe' , 'gray']
 },
 {
+      //Model Number 2
     name:'Lenovo ThinkPad Z16' ,
     price : 1200,
     Ram : '8GB',
     Color:['black' , 'withe' , 'green'] 
 },
 {
+      //Model Number 3
     name:'Lenovo ThinkPad Z13' ,
     price : 1500,
     Ram : '6GB',
     Color:['black' , 'withe' , 'brown'] 
 },
-
 ],
-
 }
+},
 
-    },
 
-
-    // section2 | this product for mobil | this section have many mobil model for  buy mobil
+    // Section for mobile brands
 {
 section : 'mobile' ,
-
+ // Samsung Phones
 Samsung : {
-
-
-model :[{
+model :[
+    {
+    //Model Number 1
     name:'Samsung A71' ,
     price : 1800,
     Ram : '4GB',
     Color:['black' , 'withe' , 'gray']
 },
 {
+    //Model Number 2
     name:'Samsung A12' ,
     price : 2200,
     Ram : '8GB',
     Color:['black' , 'withe' , 'green'] 
 },
 {
+    //Model Number 3
     name:'Samsung Z-Filip' ,
     price : 1500,
     Ram : '6GB',
     Color:['black' , 'withe' , 'brown']  
 },
 {
+    //Model Number 4
     name:'Samsung S23 Ultra' ,
     price : 2500,
     Ram : '8GB',
     Color:['black' , 'withe' , 'rozgold']
 }
-
 ],
-
 },
+     //IPhone Phones
 IPhone : {
-
-
-
-model :[{
+ //Available IPhone Mobile Models
+model :[
+    {
+         //Model Number 1
     name:'IPhone 14 mini' ,
     price : 1800,
     Ram : '4GB',
     Color:['black' , 'withe' , 'gray']
 },
 {
+     //Model Number 2
     name:'IPhone SE' ,
     price : 2200,
     Ram : '8GB',
     Color:['black' , 'withe' , 'green'] 
 },
 {
+     //Model Number 3
     name:'IPhone Xs max' ,
     price : 1500,
     Ram : '6GB',
     Color:['black' , 'withe' , 'brown']  
 },
-
-
 ],
-
 },
+      // Sony Phones
 Sony : {
-
-
-
-model :[{
+ //Available Sony Mobile Models
+model :[
+    {
+         //Model Number 1
     name:'Sony Xperia  ' ,
     price : 1800,
     Ram : '4GB',
     Color:['black' , 'withe' , 'gray']
 },
 {
+     //Model Number 2
     name:'Sony Xperia 1 V' ,
     price : 2200,
     Ram : '8GB',
     Color:['black' , 'withe' , 'green'] 
 },
 {
+     //Model Number 3
     name:'Sony Z1s' ,
     price : 1500,
     Ram : '6GB',
     Color:['black' , 'withe' , 'brown']  
 },
-
-
 ],
-
 }
 },
- // section3 | this product for Watch | this section have many watch model for  buy watch
+  // Section for watch brands
 {
     section :' Watch',
+     // Samsung Watches
    SamsungW : {
-
-    model :[{
+  //Available Samsung Watches Models
+    model :[
+        {
+             //Model Number 1
         name:'Galaxy Watch 4' ,
         price : 1800,
         Ram : '4GB',
         Color:['black' , 'withe' , 'gray']
     },
     {
+         //Model Number 2
         name:'Galaxy Watch 6' ,
         price : 2200,
         Ram : '8GB',
         Color:['black' , 'withe' , 'green'] 
     },
     {
+         //Model Number 3
         name:'Galaxy Watch 2' ,
         price : 1500,
         Ram : '6GB',
         Color:['black' , 'withe' , 'brown']  
     },
-
     
     ],
     
     },
+     // Rolex Watches
    Rolex : {
-
-    
-    
-    model :[{
+    //Available Rolex Watches Models
+    model :[
+        {
+            //Model Number 1
         name:'GMT-Master II' ,
         price : 1800,
         gold : '75%',
         Color:['black' , 'withe' , 'gray']
     },
     {
+        //Model Number 2
         name:'Cosmograph Daytona' ,
         price : 2200,
         Ram : '25%',
         Color:['black' , 'withe' , 'green'] 
     },
     {
+        //Model Number 3
         name:'Oyster Perpetual' ,
         price : 1500,
         Ram : '50%',
         Color:['black' , 'withe' , 'brown']  
     },
 
-    
     ],
     
     },
+     // Casio Watches
     Casio : {
-
-    
-    
-    model :[{
+  //Available Casio Watches Models
+    model :[
+        {
+             //Model Number 1
         name:'GG-B100-1ADR' ,
         price : 1800,
         gold : '75%',
         Color:['black' , 'withe' , 'gray']
     },
     {
+         //Model Number 2
         name:'MTP-VD01B-1BVUDF' ,
         price : 2200,
         Ram : '25%',
         Color:['black' , 'withe' , 'green'] 
     },
     {
+         //Model Number 3
         name:'GA-B2100-1A1DR' ,
         price : 1500,
         Ram : '50%',
         Color:['black' , 'withe' , 'brown']  
     },
-
-    
     ],
-    
     }
 },
-
-
 // just this time products is finish but may this products is increase
 ]
 }
 
 
-
+// show in console
 console.log(shop.Product[0].Asus.model[0]);
 
 
